@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Salle de Sport</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Salle de Sport</string>
+    <string name="nav_header_subtitle">Sport List</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="image_content_description">Connexion</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="email">Adresse email</string>
+    <string name="password">Mot de passe</string>
+    <string name="connect">Se connecter</string>
+
+    <string name="title_activity_login_display">LoginDisplayActivity</string>
+    <string name="hint_mail">Adresse email de l\'utilisateur</string>
+    <string name="hint_pass">Le mot de passe de l\'utilisateur</string>
+
+    <string name="email_format_error">Le champ email ne correspond pas au format d\'une adresse email</string>
+    <string name="email_or_password_empty">L\'adresse email et le mot de passe sont obligatoires</string>
+    <string name="list_de_sport">List de Sport</string>
+    <string name="id">Id</string>
+    <string name="nom">Nom</string>
+    <string name="salle_de_sport">Salle de Sport</string>
+    <string name="prenom">Prenom</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="gymna">Gymnastique</string>
+    <string name="musculation">Musculation</string>
+    <string name="cardio">Cardio</string>
+    <string name="yoga">Yoga</string>
+    <string name="zumba">Zumba</string>
+    <string name="yoga_description">lundi 8h-10h</string>
+    <string name="cardio_description">mardi 10h-12h</string>
+    <string name="muscule_description">mercredi 14h-16h</string>
+    <string name="gymna_description">jeudi 7h-9h</string>
+    <string name="zumba_description">vendredi 18h-20h</string>
+</resources>

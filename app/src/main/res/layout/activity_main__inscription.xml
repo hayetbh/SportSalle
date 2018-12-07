@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="@drawable/home"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/salle_de_sport"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id"
+            android:textColor="@android:color/holo_red_light"
+            tools:textColor="@android:color/black"
+            tools:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/id_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Entrer your id"
+            android:autofillHints="@string/id"/>
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nom"
+            android:textColor="@android:color/holo_red_light"
+            tools:textColor="@android:color/black"
+            tools:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Entrer votre name"
+            android:autofillHints="@string/nom"
+            />
+
+        <TextView
+            android:id="@+id/prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prenom"
+            android:textColor="@android:color/holo_red_light"
+            tools:textColor="@android:color/black"
+            tools:textSize="24sp"
+            />
+
+        <EditText
+            android:id="@+id/prenom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Entrer votre prenom"
+            android:autofillHints="@string/prenom"
+            />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="@android:color/holo_red_light"
+            tools:textColor="@android:color/black"
+            tools:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/email_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Entrer your email"
+            android:autofillHints="@string/email"/>
+
+
+
+        <TextView
+            android:id="@+id/mdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mot_de_passe"
+            android:textColor="@android:color/holo_red_light"
+            tools:textColor="@android:color/black"
+            tools:textSize="24sp"
+            android:autofillHints="@string/mot_de_passe"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Entrer votre mot de passe"
+            android:autofillHints="@string/mot_de_passe"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@color/colorPrimary"
+            android:text="Envoyer"
+            android:onClick="btn_add"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:background="@color/colorPrimary"
+            android:text="Annuler"
+            android:textColor="@android:color/background_light"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

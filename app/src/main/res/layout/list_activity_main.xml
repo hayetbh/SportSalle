@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/list_de_sport"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        tools:textColor="@android:color/holo_purple" />
+
+    <ListView
+        android:id="@+id/listviewperso"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
